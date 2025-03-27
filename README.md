@@ -1,6 +1,6 @@
 # Job Status API
 
-This is a simple Express + TypeScript server that simulates long-running background jobs.  
+This is a Express + TypeScript server that simulates long-running background jobs.  
 Clients can submit a job, and then poll the status endpoint to get updates on progress or completion.
 
 ---
