@@ -1,13 +1,13 @@
 {
   "name": "async_express",
   "version": "1.0.0",
-  "description": "",
+  "description": "async server for long running api jobs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc && node ./dist/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emi Roberti",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.1",
